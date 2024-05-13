@@ -1,12 +1,9 @@
 package main
 
-import (
-	"fmt"
-	"main/something"
-)
+import "fmt"
 
-func main(){
-    fmt.Println("Hello world")
-	something.Something()
-    
+func main() {
+	const name string = "nico"
+	fmt.Println(name)
+
 }
