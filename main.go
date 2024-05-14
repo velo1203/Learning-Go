@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	const name string = "nico"
-	fmt.Println(name)
 
+func main() {
+	a := 1
+	b := &a
+
+	*b =  30
+	fmt.Println(a)
 }
